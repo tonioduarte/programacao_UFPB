@@ -1,4 +1,5 @@
 genero = input(" deseja saber seu peso ideal com base no cálculo masculino ou feminino? ")
+
 if genero == 'masculino':
 	alturaM = float(input(" qual sua altura? "))
 	peso_idealM = (72.7*alturaM) - 58

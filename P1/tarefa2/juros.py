@@ -5,7 +5,7 @@ cont = 0
 juros_Total = 0
 
 if valor_Pago <= valor_Inicial * juros:
-        print("A dívida nunca será paga.")
+        print("A dívida não vai ser paga nunca.")
 
 while valor_Inicial > 0:
     juros_Mes = valor_Inicial * juros

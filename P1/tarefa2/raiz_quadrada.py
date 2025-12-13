@@ -6,4 +6,4 @@ while abs(b - p) >= 0.0001:
     b = p
     p = (b + n / b) / 2
 
-print(f"Raiz aproximada: {b:.1f}")
+print(f"Raiz aproximada 1: {b:.1f}\nRaiz aproximada 2: {p:.1f}")
